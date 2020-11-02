@@ -6,6 +6,17 @@
         </title>
     </head>
     <body>
+        <center>
+            <button>CHANGER DE COULEUR</button>
+            <script type="text/javascript">
+                var color= ["#FF0000","#0000FF"]
+                var i = 0;
+                document.querySelector("button").addEventListener("click",
+                function(){
+                  i = i < color.length ? ++i : 0;
+                document.querySelector("body").style.background = color[i]
+                })
+            </script>
         
         <center>
            Bonjour Steed
