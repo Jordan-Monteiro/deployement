@@ -4,3 +4,13 @@
     height: 200;
 }
 
+.bouton {
+    background-color: red;
+    border: none;
+    color: white;
+  
+  }
+  .bouton:hover {
+    background-color: blue;
+    color: white;
+  }
